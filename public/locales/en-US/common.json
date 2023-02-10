@@ -1,0 +1,25 @@
+{
+  "header": {
+    "about": "About",
+    "projects": "Projects",
+    "linkedin": "Linkedin",
+    "contact": "Contact"
+  },
+  "hero": {
+    "description": "Specialist IT consultancy",
+    "chat": "let’s talk"
+  },
+  "about": {
+    "title": "About",
+    "description": "Specialist IT consultancy",
+    "link": ""
+  },
+  "projects": {
+    "title": "Projects",
+    "button": "view project"
+  },
+  "footer": {
+    "ready": "Let's work together?",
+    "right": "All Right Reserved by"
+  }
+}

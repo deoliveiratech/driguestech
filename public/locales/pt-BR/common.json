@@ -1,0 +1,25 @@
+{
+  "header": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "linkedin": "Linkedin",
+    "contact": "Contato"
+  },
+  "hero": {
+    "description": "Consultoria em TI especializada",
+    "chat": "Entre em Contato"
+  },
+  "about": {
+    "title": "Sobre",
+    "description": "Consultoria em TI especializada",
+    "link": ""
+  },
+  "projects": {
+    "title": "Projetos",
+    "button": "ver projeto"
+  },
+  "footer": {
+    "ready": "Vamos trabalhar juntos?",
+    "right": "Todos os direitos reservados por"
+  }
+}
