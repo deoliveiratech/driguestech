@@ -1,13 +1,13 @@
 import { useProjectsContext } from "hooks/useProjectsContext";
 import { useTranslation } from "next-i18next";
 
-import { IProjects } from "types";
+//import { IProjects } from "types";
 
 import { Button } from "../Button";
 import * as S from "./style";
 
-import portfolioItaquicell from "/public/assets/itaquicell-site.png";
-import portfolioAebiLaser from "/public/assets/aebilaser-site.png";
+import portfolioItaquicell from "../../../public/assets/itaquicell-site.png";
+import portfolioAebiLaser from "../../../public/assets/aebi-site.png";
 
 export function Card() {
   const { projects } = useProjectsContext();
