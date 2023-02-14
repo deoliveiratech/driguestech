@@ -16,12 +16,21 @@ export function Card() {
 
   return (
     <>
-      
+        
         <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
           <S.Info>
             <S.Title>Site ITAQUI CELL</S.Title>
             <S.Description>Criação do Website da empresa ITAQUI CELL</S.Description>
             <Button link="https://itaquicell.com.br/">{t("projects.button")}</Button>
+          </S.Info>
+          <S.Image src={portfolioItaquicell.src} alt="Image Project" />
+        </S.Card>
+
+        <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
+          <S.Info>
+            <S.Title>Site driguestech</S.Title>
+            <S.Description>Criação de meu portfólio na tecnologia NEXT.JS</S.Description>
+            <Button link="https://driguestech.vercel.app/">{t("projects.button")}</Button>
           </S.Info>
           <S.Image src={portfolioItaquicell.src} alt="Image Project" />
         </S.Card>
