@@ -7,7 +7,9 @@ import { Button } from "../Button";
 import * as S from "./style";
 
 import portfolioItaquicell from "../../../public/assets/itaquicell-site.png";
+import portfolioDriguesTech from "../../../public/assets/drigues-tech.png";
 import portfolioAebiLaser from "../../../public/assets/aebi-site.png";
+import portfolioAebiLaser2 from "../../../public/assets/aebi-site-2.png";
 
 export function Card() {
   const { projects } = useProjectsContext();
@@ -17,6 +19,15 @@ export function Card() {
   return (
     <>
         
+        <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
+          <S.Info>
+            <S.Title>Site AEBI LASER Novo</S.Title>
+            <S.Description>Adequação de novo Layout do Website da empresa AEBI LASER</S.Description>
+            <Button link="https://aebilaser.com.br/">{t("projects.button")}</Button>
+          </S.Info>
+          <S.Image src={portfolioAebiLaser2.src} alt="Image Project" />
+        </S.Card>
+
         <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
           <S.Info>
             <S.Title>Site ITAQUI CELL</S.Title>
@@ -32,7 +43,7 @@ export function Card() {
             <S.Description>Criação de meu portfólio na tecnologia NEXT.JS</S.Description>
             <Button link="https://driguestech.vercel.app/">{t("projects.button")}</Button>
           </S.Info>
-          <S.Image src={portfolioItaquicell.src} alt="Image Project" />
+          <S.Image src={portfolioDriguesTech.src} alt="Image Project" />
         </S.Card>
 
         <S.Card data-aos="fade-right" key="Site ITAQUI CELL">

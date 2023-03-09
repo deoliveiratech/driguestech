@@ -1,6 +1,6 @@
 import common from "../../public/locales/en-US/common.json";
 import commonPtBr from "../../public/locales/pt-BR/common.json";
-import commonEsEs from "../../public/locales/es-Es/common.json";
+import commonEsEs from "../../public/locales/es-ES/common.json";
 
 export interface ITechs {
   icon: JSX.Element;
