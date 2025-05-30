@@ -59,7 +59,7 @@ export function Header() {
               </S.Items> */}
               <S.Items>
                 <S.Link
-                  href="https://www.linkedin.com/in/roliveirainfo/"
+                  href="https://www.linkedin.com/in/deoliveiratech/"
                   target="_blank"
                 >
                   {t("header.linkedin")}
@@ -119,7 +119,7 @@ export function Header() {
             </S.ItemsMobile>
             <S.ItemsMobile>
               <S.Link
-                href="https://www.linkedin.com/in/roliveirainfo/"
+                href="https://www.linkedin.com/in/deoliveiratech/"
                 target="_blank"
                 onClick={toggle}
               >

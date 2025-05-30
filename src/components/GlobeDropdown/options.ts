@@ -13,9 +13,9 @@ export const options = [
     name: "Portuguese",
     value: "pt-BR",
   },
- /*  {
+  {
     flag: FlagEs.src,
     name: "Spanish",
     value: "es-ES",
-  }, */
+  },
 ];

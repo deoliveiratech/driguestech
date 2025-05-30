@@ -11,24 +11,26 @@ export function Footer() {
       <Container>
         <S.Wrapper>
           <S.Work>{t("footer.ready")}</S.Work>
-          <S.City>Curitiba, PR, Brazil</S.City>
-          <S.Email href="mailto:driguestech@gmail.com" target="_blank">
+          <S.City>Soluções em Tech para todo o Brasil</S.City>
+          <S.Email href="mailto:driguestech@gmail.com" target="_blank" rel="noopener noreferrer">
             driguestech@gmail.com
           </S.Email>
-          <S.Phone>(+55) 41 99134-9332</S.Phone>
+          <S.Link href="https://api.whatsapp.com/send?phone=+5541991349332&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre" 
+          target="_blank" rel="noopener noreferrer">Whats: (+55) 41 99134-9332
+          </S.Link>
           <S.SocialLinks>
-            <S.Link href="https://github.com/digoliveiradev" target="_blank">
+            <S.Link href="https://github.com/deoliveiratech" target="_blank" rel="noopener noreferrer">
               github
             </S.Link>
             <S.Link
-              href="https://www.linkedin.com/in/roliveirainfo/"
-              target="_blank"
+              href="https://www.linkedin.com/in/deoliveiratech/"
+              target="_blank" rel="noopener noreferrer"
             >
               linkedin
             </S.Link>
             <S.Link
-              href="https://www.instagram.com/roliveirainfo/"
-              target="_blank"
+              href="https://www.instagram.com/rodigo.rodrigues"
+              target="_blank" rel="noopener noreferrer"
             >
               instagram
             </S.Link>
