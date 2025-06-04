@@ -38,7 +38,7 @@ export function Card() {
         <S.Image src={portfolioPalefixAr.src} alt="Website Palefix Argentina" />
       </S.Card>
 
-      <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
+      <S.Card data-aos="fade-right" key="Site AEBI LASER Novo">
         <S.Info>
           <S.Title>Site AEBI LASER Novo</S.Title>
           <S.Description>Adequação de novo Layout do Website da empresa AEBI LASER</S.Description>

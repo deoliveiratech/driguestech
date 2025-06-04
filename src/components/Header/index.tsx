@@ -126,9 +126,9 @@ export function Header() {
                 {t("header.linkedin")}
               </S.Link>
             </S.ItemsMobile>
-            <S.ItemsMobile>
+            {/* <S.ItemsMobile>
               <S.Link onClick={toggle}>{t("header.curriculum")}</S.Link>
-            </S.ItemsMobile>
+            </S.ItemsMobile> */}
             <S.ItemsMobile>
               <Link
                 to="contact"

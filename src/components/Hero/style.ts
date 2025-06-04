@@ -43,7 +43,7 @@ export const Description = styled.p`
   font-weight: 300;
 
   @media (max-width: 600px) {
-    max-width: 90%;
+    max-width: 100%;
   }
 `;
 
