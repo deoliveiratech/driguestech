@@ -94,6 +94,9 @@ export function Header() {
         <S.MobileWrapper className={state ? "active" : ""}>
           <S.NavItemsMobile>
             <S.ItemsMobile>
+              <GlobeDropdown />
+            </S.ItemsMobile>
+            <S.ItemsMobile>
               <Link
                 to="about"
                 spy={false}
