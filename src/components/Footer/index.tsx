@@ -11,7 +11,7 @@ export function Footer() {
       <Container>
         <S.Wrapper>
           <S.Work>{t("footer.ready")}</S.Work>
-          <S.City>Soluções em Tech para todo o Brasil</S.City>
+          <S.City>{t("footer.slogan")}</S.City>
           <S.Email href="mailto:driguestech@gmail.com" target="_blank" rel="noopener noreferrer">
             driguestech@gmail.com
           </S.Email>

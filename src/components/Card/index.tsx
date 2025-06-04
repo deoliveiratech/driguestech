@@ -1,6 +1,5 @@
 import { useProjectsContext } from "hooks/useProjectsContext";
 //import { useTranslation } from "next-i18next";
-
 //import { IProjects } from "types";
 
 import { Button } from "../Button";
@@ -13,14 +12,21 @@ import portfolioAebiLaser2 from "../../../public/assets/aebi-site-2.png";
 import portfolioPalefixAr from "../../../public/assets/palefixArgentina.png";
 import erpAssisTec from "../../../public/assets/erp_assistencia_tecnica.png";
 import capilovers from "../../../public/assets/capilovers.png";
+import ctrlFin from "../../../public/assets/projeto_ctrlFin.png";
 
 export function Card() {
   const { projects } = useProjectsContext();
-
   //const { t } = useTranslation("common");
-
   return (
     <>
+      <S.Card data-aos="fade-right" key="Sistema de Gestão Financeira Pessoal">
+        <S.Info>
+          <S.Title>Sistema/App CtrlFin</S.Title>
+          <S.Description>Sistema simples de Gestão Financeira Pessoal</S.Description>
+          <Button link="https://ctrlfin.netlify.app/">Ver projeto</Button>
+        </S.Info>
+        <S.Image src={ctrlFin.src} alt="Website Capi Lovers" />
+      </S.Card>
       <S.Card data-aos="fade-right" key="Site Capi Lovers">
         <S.Info>
           <S.Title>Site Capi Lovers</S.Title>
@@ -56,7 +62,7 @@ export function Card() {
         <S.Image src={portfolioItaquicell.src} alt="Image Project" />
       </S.Card>
 
-      <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
+      <S.Card data-aos="fade-right" key="ERP Assistência Técnica">
         <S.Info>
           <S.Title>ERP Assistência Técnica</S.Title>
           <S.Description>Desenvolvimento de ERP para empresa de Assistência Técnica</S.Description>
@@ -65,7 +71,7 @@ export function Card() {
         <S.Image src={erpAssisTec.src} alt="Image Project" />
       </S.Card>
 
-      <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
+      <S.Card data-aos="fade-right" key="Site driguestech">
         <S.Info>
           <S.Title>Site driguestech</S.Title>
           <S.Description>Criação de meu portfólio na tecnologia NEXT.JS</S.Description>
@@ -74,7 +80,7 @@ export function Card() {
         <S.Image src={portfolioDriguesTech.src} alt="Image Project" />
       </S.Card>
 
-      <S.Card data-aos="fade-right" key="Site ITAQUI CELL">
+      <S.Card data-aos="fade-right" key="Site AEBI LASER">
         <S.Info>
           <S.Title>Site AEBI LASER</S.Title>
           <S.Description>Criação do Website da empresa AEBI LASER</S.Description>
