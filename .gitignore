@@ -32,7 +32,7 @@ yarn-error.log*
 old-README copy.md
 
 # vercel
-.vercel
+#.vercel
 
 # typescript
 *.tsbuildinfo
