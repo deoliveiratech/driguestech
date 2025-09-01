@@ -13,13 +13,31 @@ import portfolioPalefixAr from "../../../public/assets/palefixArgentina.png";
 import erpAssisTec from "../../../public/assets/erp_assistencia_tecnica.png";
 import capilovers from "../../../public/assets/capilovers.png";
 import ctrlFin from "../../../public/assets/projeto_ctrlFin.png";
+import wepraiseDash from "../../../public/assets/wepraise_dashboard.png";
+import sistemapara from "../../../public/assets/sistemapara.png";
 
 export function Card() {
   const { projects } = useProjectsContext();
   //const { t } = useTranslation("common");
   return (
     <>
-      <S.Card data-aos="fade-right" key="Sistema de Gestão Financeira Pessoal">
+      <S.Card data-aos="fade-right" key="Website centralizador de Soluções">
+        <S.Info>
+          <S.Title>Website centralizador</S.Title>
+          <S.Description>Website centralizador de Soluções SaaS</S.Description>
+          <Button link="https://sistemapara.com.br/">Ver projeto</Button>
+        </S.Info>
+        <S.Image src={sistemapara.src} alt="Website WePraise" />
+      </S.Card>
+      <S.Card data-aos="fade-right" key="Website centralizador de Soluções">
+        <S.Info>
+          <S.Title>Sistema/App WePraise</S.Title>
+          <S.Description>Organize escalas, cultos e ministérios com excelência</S.Description>
+          <Button link="https://sistemapara.com.br/sistema-para-igrejas/">Ver projeto</Button>
+        </S.Info>
+        <S.Image src={wepraiseDash.src} alt="Website WePraise" />
+      </S.Card>
+      <S.Card data-aos="fade-right" key="Sistema de Gestão de horários para Igrejas">
         <S.Info>
           <S.Title>Sistema/App CtrlFin</S.Title>
           <S.Description>Sistema simples de Gestão Financeira Pessoal</S.Description>
