@@ -13,7 +13,8 @@ import portfolioPalefixAr from "../../../public/assets/palefixArgentina.png";
 import erpAssisTec from "../../../public/assets/erp_assistencia_tecnica.png";
 import capilovers from "../../../public/assets/capilovers.png";
 import ctrlFin from "../../../public/assets/projeto_ctrlFin.png";
-import wepraiseDash from "../../../public/assets/wepraise_dashboard.png";
+import lpYouBeauty from "../../../public/assets/wepraise_dashboard.png"; 
+import wepraiseDash from "../../../public/assets/old-wepraise_dashboard.png"; //old-wepraise_dashboard.png
 import sistemapara from "../../../public/assets/sistemapara.png";
 
 export function Card() {
@@ -29,7 +30,15 @@ export function Card() {
         </S.Info>
         <S.Image src={sistemapara.src} alt="Website WePraise" />
       </S.Card>
-      <S.Card data-aos="fade-right" key="Website centralizador de Soluções">
+      <S.Card data-aos="fade-right" key="Landing Page YouBeauty">
+        <S.Info>
+          <S.Title>Landing Page YouBeauty</S.Title>
+          <S.Description>Organize sua agenda, clientes e financeiro em um só lugar!</S.Description>
+          <Button link="https://sistemapara.com.br/sistema-para-beleza/">Ver projeto</Button>
+        </S.Info>
+        <S.Image src={lpYouBeauty.src} alt="Sistema App YouBeauty" />
+      </S.Card>
+      <S.Card data-aos="fade-right" key="Sistema App WePraise">
         <S.Info>
           <S.Title>Sistema/App WePraise</S.Title>
           <S.Description>Organize escalas, cultos e ministérios com excelência</S.Description>
